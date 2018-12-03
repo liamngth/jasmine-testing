@@ -67,7 +67,7 @@ $(function() {
        });
 
        it('there is at least a single .entry within .feed container', function(done) {
-          expect($('.entry').length > 0).toBe(true);
+          expect($('.feed .entry').length > 0).toBe(true);
           done();
        });
     });
